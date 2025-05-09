@@ -72,7 +72,7 @@ const ToggleButton = styled.div`
     border-radius: 4px;
   }
   ${({ active, theme }) =>
-    active &&
+    active && 
     `
   background:  ${theme.primary + 20};
   `}
